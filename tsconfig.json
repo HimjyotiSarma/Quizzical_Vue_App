@@ -1,0 +1,18 @@
+{
+  "extends": ["@vue/tsconfig/tsconfig.json"],
+  "compilerOptions": {
+    "types": ["node"],
+    "moduleResolution": "node"
+  },
+  "noImplicitAny": false,
+  "allowJs": true,
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ]
+}
